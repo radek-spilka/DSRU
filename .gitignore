@@ -1,68 +1,45 @@
-# Prerequisites
-*.d
+# =========================
+# 1. CLion a JetBrains IDE
+# =========================
+# Skryje veškeré lokální nastavení editoru (včetně tvého .iml souboru)
+.idea/
+*.iml
+# CLion si ve výchozím stavu tvoří složky pro build (např. cmake-build-debug)
+cmake-build-*/
 
-# Compiled Object files
-*.slo
-*.lo
+# =========================
+# 2. CMake a Build systémy
+# =========================
+# Skryje dočasné soubory, které CMake tvoří při přípravě kompilace
+build/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# =========================
+# 3. C++ kompiláty a binárky
+# =========================
+# Objektové soubory (mezikroky kompilace)
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+# Dynamické a statické knihovny
 *.so
 *.dylib
 *.dll
-*.so.*
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
 *.lib
-
-# Executables
+# Spustitelné soubory
 *.exe
 *.out
 *.app
 
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
-*.tmp
-*.log
-*.bak
-*.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+# =========================
+# 4. Soubory operačních systémů
+# =========================
+# Zabrání nahrávání neviditelných systémových souborů (Mac / Windows)
+.DS_Store
+Thumbs.db
