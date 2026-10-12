@@ -1,5 +1,14 @@
-![DSRU Logo](game_logo.png)
 
+```
+ _____   _____ _____  _    _ 
+|  __ \ / ____|  __ \| |  | |
+| |  | | (___ | |__) | |  | |
+| |  | |\___ \|  _  /| |  | |
+| |__| |____) | | \ \| |__| |
+|_____/\_____/|_|  \_\\____/ 
+                             
+  Deep Space Repair Unit
+```
 Vítejte v oficiálním repozitáři projektu **Deep Space Repair Unit (DSRU)**! 
 Tento projekt vznikl v rámci předmětu ZOO (Základy Objektového Návrhu) a jeho hlavním cílem bylo vytvořit propracovanou hru s důrazem na čistý kód, objektově orientovaný návrh a využití návrhových vzorů.
 
@@ -19,8 +28,8 @@ Hra využívá přehlednou ASCII grafiku, která zobrazuje detail aktuálního m
 
 Příklad vygenerovaného modulu (Laboratoř, kde `!` značí poruchu a `D` pozici drona):
 ```text
-+--H--+
-|     |
-H  D  |
-|    !|
-+-----+
++-----+-----+--H--+
+|     |     |     |
+|        D     !  |
+|     |     |     |
++--H--+-----+-----+
