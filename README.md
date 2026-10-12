@@ -1,4 +1,4 @@
-
+![DSRU Logo](game_logo.png)
 
 Vítejte v oficiálním repozitáři projektu **Deep Space Repair Unit (DSRU)**! 
 Tento projekt vznikl v rámci předmětu ZOO (Základy Objektového Návrhu) a jeho hlavním cílem bylo vytvořit propracovanou hru s důrazem na čistý kód, objektově orientovaný návrh a využití návrhových vzorů.
