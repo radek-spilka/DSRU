@@ -12,7 +12,7 @@
 Tento projekt vznikl v rámci předmětu ZOO (Základy Objektového Návrhu) a jeho hlavním cílem bylo vytvořit propracovanou hru s důrazem na čistý kód, objektově orientovaný návrh a využití návrhových vzorů.
 
 ## 👥 Autoři
-[@radek-spilka](https://github.com/radek-spilka)
+[@radek-spilka](https://github.com/radek-spilka) <br>
 [@martin-gabriel](https://github.com/IamNitramis)
 
 ## 🎮 O hře
