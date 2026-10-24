@@ -9,10 +9,13 @@
                              
   Deep Space Repair Unit
 ```
-Vítejte v oficiálním repozitáři projektu **Deep Space Repair Unit (DSRU)**! 
 Tento projekt vznikl v rámci předmětu ZOO (Základy Objektového Návrhu) a jeho hlavním cílem bylo vytvořit propracovanou hru s důrazem na čistý kód, objektově orientovaný návrh a využití návrhových vzorů.
 
-## 🌌 O hře
+## 👥 Autoři
+[@radek-spilka](https://github.com/radek-spilka)
+[@martin-gabriel](https://github.com/IamNitramis)
+
+## 🎮 O hře
 Ve hře se ujímáte ovládání opravářského drona na palubě obří a postupně se rozpadající vesmírné stanice. Vnitřní schéma této modulární stanice bylo ztraceno, takže vás čeká pečlivý průzkum neznámého prostředí. 
 
 Váš ultimátní cíl? Dostat se do zablokované části lodi, kde se nachází hlavní řídící centrum. Zde musíte na hlavním počítači spustit návratový program, který celou loď odnaviguje bezpečně domů. Cestou však budete muset opravovat kritické systémy (označené **!**) a vyhýbat se nebezpečím.
