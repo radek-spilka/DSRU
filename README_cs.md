@@ -1,5 +1,6 @@
+<div align="center">
 
-```
+```text
  _____   _____ _____  _    _ 
 |  __ \ / ____|  __ \| |  | |
 | |  | | (___ | |__) | |  | |
@@ -9,6 +10,8 @@
                              
   Deep Space Repair Unit
 ```
+
+</div>
 Tento projekt vznikl v rámci předmětu ZOO (Základy Objektového Návrhu) a jeho hlavním cílem bylo vytvořit propracovanou hru s důrazem na čistý kód, objektově orientovaný návrh a využití návrhových vzorů.
 
 ## 👥 Autoři
